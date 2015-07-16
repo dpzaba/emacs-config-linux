@@ -21,6 +21,10 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Basic
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Disable toolbar
+(tool-bar-mode -1)
+;; Disable top menu
+(menu-bar-mode -1)
 ;; Reload files (auto revert)
 ;; http://ubuntuforums.org/showthread.php?t=1735237
 ;; C-x C-v RET
