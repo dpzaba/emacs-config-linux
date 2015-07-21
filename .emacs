@@ -16,7 +16,7 @@
 (require 'package)
 
 (add-to-list 'package-archives
-	     '("melpa-stable" . "http://stable.melpa.org/packages/") t)
+             '("melpa-stable" . "http://stable.melpa.org/packages/") t)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Basic
@@ -42,6 +42,7 @@
 ;; MELPA packages:
 ;; @ whitespace-cleanup-mode
 ;; To clean always
+(setq global-whitespace-cleanup-mode 1)
 (setq whitespace-cleanup-mode-only-if-initially-clean nil)
 ;; @ haml-mode
 ;; @ yaml-mode
