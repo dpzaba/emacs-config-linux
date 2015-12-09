@@ -65,3 +65,12 @@
       auto-save-timeout 20              ; number of seconds idle time before auto-save (default: 30)
       auto-save-interval 200            ; number of keystrokes between auto-saves (default: 300)
       )
+
+
+;; show column numbers
+(setq column-number-mode t)
+
+;; mark in purple characters after column 80
+(setq whitespace-style
+  (quote (face trailing tab-mark lines-tail)))
+(add-hook 'find-file-hook 'whitespace-mode)
